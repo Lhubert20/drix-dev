@@ -1,4 +1,4 @@
-/* genera */
+/* general */
 *{
     margin: 0%;
     text-align: center;
@@ -10,14 +10,13 @@ header ,footer{
 
 h1 ,h2{
     color: white;
+    font-family: "Montserrat", sans-serif;
 }
 nav li{
 display: inline-block;
 margin: 15PX 25PX;
 }
-li{
-  
-}
+
 nav li:hover{
     opacity: 0.5 ;}
 
@@ -33,7 +32,20 @@ a{
     text-decoration: none;
      list-style-type: none;
    border: 1px solid black;
-   padding: 5px 10px;
+   padding: 10px 10px;
    margin-bottom: 30px;
    border-radius: 10px;
+   
+   
+}
+.projets li:hover{
+    box-shadow: 5px, rgba(0, 0, 0, 0.7);
+}
+.contact a{
+color: black;
+}
+.description{
+    margin: 5% 20%;
+    font-size: 20px;
+    font-family: "roboto",sans-serif;
 }
