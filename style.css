@@ -1,0 +1,29 @@
+/* genera */
+*{
+    margin: 0%;
+    text-align: center;
+}
+header ,footer{
+    background:linear-gradient(135deg, #36A2E1 0%, #2F6FE4 50%, #6B3FE6 100%);
+    color: white;
+}
+
+h1 ,h2{
+    color: white;
+}
+nav li{
+display: inline-block;
+margin: 15PX 25PX;
+}
+nav li:hover{
+    opacity: 0.5 ;}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* class */
+
