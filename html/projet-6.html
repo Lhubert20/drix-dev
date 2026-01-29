@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projet: Dashboard Analytique - LH Digital">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../IMG/LOGO FAVICON.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Dashboard Analytique - LH Digital</title>
+    <style>
+        .project-detail {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .project-detail h2 {
+            font-size: 2.5rem;
+            color: var(--color-primary);
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .project-meta {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: var(--color-secondary);
+            font-size: 0.9rem;
+        }
+
+        .meta-value {
+            color: var(--color-text);
+            font-size: 1rem;
+        }
+
+        .project-description {
+            background: var(--color-light);
+            padding: 2rem;
+            border-radius: 12px;
+            border-left: 4px solid var(--color-secondary);
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .project-description p {
+            color: var(--color-text-light);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .project-technologies {
+            margin-top: 2rem;
+        }
+
+        .project-technologies h3 {
+            color: var(--color-primary);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .tech-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .tech-badge {
+            background: linear-gradient(135deg, var(--color-secondary), #0984e3);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-link {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: linear-gradient(135deg, var(--color-secondary), #0984e3);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            transition: var(--transition);
+            border: 2px solid var(--color-secondary);
+        }
+
+        .btn-link:hover {
+            background: transparent;
+            color: var(--color-secondary);
+        }
+
+        .btn-back {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: transparent;
+            color: var(--color-secondary);
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            transition: var(--transition);
+            border: 2px solid var(--color-secondary);
+            margin-bottom: 2rem;
+        }
+
+        .btn-back:hover {
+            background: var(--color-secondary);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LH DIGITAL</h1>
+        <nav class="nav-accueil">
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./projet.html">Projets</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="../IMG/LOGO FAVICON.svg" alt="Logo LH-Digital">
+    </header>
+
+    <main>
+        <div class="project-detail">
+            <a href="./projet.html" class="btn-back">← Retour aux projets</a>
+
+            <h2>Dashboard Analytique</h2>
+
+            <div class="project-meta">
+                <div class="meta-item">
+                    <span class="meta-label">Catégorie</span>
+                    <span class="meta-value">Data Visualization</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Année</span>
+                    <span class="meta-value">2024</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Statut</span>
+                    <span class="meta-value">Complété</span>
+                </div>
+            </div>
+
+            <div class="project-description">
+                <p>
+                    Un dashboard interactif proposant graphiques et visualisations de données en temps réel. Ce projet montre ma maîtrise des technologies de visualization et de traitement de données.
+                </p>
+                <p>
+                    Le dashboard offre une interface intuitive permettant aux utilisateurs de surveiller les métriques clés, générer des rapports et prendre des décisions éclairées basées sur les données.
+                </p>
+
+                <div class="project-technologies">
+                    <h3>Technologies utilisées</h3>
+                    <div class="tech-list">
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">Chart.js</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">PostgreSQL</span>
+                        <span class="tech-badge">D3.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="#" class="btn-link">Voir le dashboard</a>
+                <a href="#" class="btn-link">Code source</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 LH Digital. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

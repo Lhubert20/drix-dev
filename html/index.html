@@ -3,55 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LH-Digital - Portfolio professionnel de développement web">
     <link rel="stylesheet" href="../style.css">
     <link rel="shortcut icon" href="../IMG/LOGO FAVICON.svg" type="image/x-icon">
-    <!-- police -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap" rel="stylesheet">
-
-    <title>LH-Digital-accueil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>LH Digital - Accueil</title>
 </head>
 <body>
     <header>
-      <!--titre principale-->
-      <h1>LH DIGITAL</h1>
-      <!--navigation-->
-      <nav class="nav-accueil">
-        <ul>
-            <li><a href="../html/index.html">accueil</a></li>
-            <li><a href="../html/projet.html">Projet</a></li>
-            <li><a href="../html/contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <!--logo-->
-      <img src="../IMG/LOGO FAVICON.svg" alt="logo LH-digitale">
-    </header>
-    <main>
-      <!--description-->
-      <section class="description">
-        <p>Passionné par la programmation informatique, je conçois des projets numériques clairs, fonctionnels et adaptés aux besoins réels. Curieux et en apprentissage constant, j’aime transformer des idées en solutions concrètes, en privilégiant la simplicité, la fiabilité et la compréhension des usages.
-
-        </p>
-        </section>
-        <section class="projets">
-            <!--projet titre-->
-            <h2>Mes projet</h2>
-            <!-- liste projet -->
+        <h1>LH DIGITAL</h1>
+        <nav class="nav-accueil">
             <ul>
-                <li><a href="*"><img src="../IMG/LOGO GENERAL.svg" alt=""></a></li>
-                <li><a href="*"><img src="../IMG/LOGO GENERAL.svg" alt=""></a></li>
-                <li><a href="*"><img src="../IMG/LOGO GENERAL.svg" alt=""></a></li>
-                <li><a href="*"><img src="../IMG/LOGO GENERAL.svg" alt=""></a></li>
-                <li><a href="*"><img src="../IMG/LOGO GENERAL.svg" alt=""></a></li>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./projet.html">Projets</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
+        </nav>
+        <img src="../IMG/LOGO FAVICON.svg" alt="Logo LH-Digital">
+    </header>
+
+    <main>
+        <section class="description">
+            <p>
+                Passionné par la programmation informatique, je conçois des projets numériques clairs, fonctionnels et adaptés aux besoins réels. Curieux et en apprentissage constant, j'aime transformer des idées en solutions concrètes, en privilégiant la simplicité, la fiabilité et la compréhension des usages.
+            </p>
         </section>
-        <section class="contact">
-            <p>Une question ? un message ?<br> vous pouvez me contacter: <a href="mailto:Lhubert20@hotmail.fr">lhubert20@hotmail.fr</a>  </p>
+
+        <section class="projets">
+            <h2>Mes Projets</h2>
+            <div class="projets-grid">
+                <article class="projet-card">
+                    <a href="./projet-1.html" class="projet-card-link">
+                        <img src="../IMG/LOGO GENERAL.svg" alt="Site vitrine">
+                        <div class="projet-card-content">
+                            <h3>Site Vitrine</h3>
+                            <p>Création d'un site vitrine responsive en HTML/CSS avec design moderne et optimisé.</p>
+                            <span style="display: inline-block; padding: 0.7rem 1.5rem; background: linear-gradient(135deg, #0984e3, #0984e3); color: #ffffff; border-radius: 6px; font-size: 0.9rem; font-weight: 500; margin-top: 0.5rem;">Voir le projet</span>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="projet-card">
+                    <a href="./projet-2.html" class="projet-card-link">
+                        <img src="../IMG/LOGO GENERAL.svg" alt="Application Web">
+                        <div class="projet-card-content">
+                            <h3>Application Web</h3>
+                            <p>Application dynamique avec JavaScript, offrant une expérience utilisateur fluide et interactive.</p>
+                            <span style="display: inline-block; padding: 0.7rem 1.5rem; background: linear-gradient(135deg, #0984e3, #0984e3); color: #ffffff; border-radius: 6px; font-size: 0.9rem; font-weight: 500; margin-top: 0.5rem;">Voir le projet</span>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="projet-card">
+                    <a href="./projet-3.html" class="projet-card-link">
+                        <img src="../IMG/LOGO GENERAL.svg" alt="Projet Personnel">
+                        <div class="projet-card-content">
+                            <h3>Projet Personnel</h3>
+                            <p>Projet d'apprentissage et d'expérimentation pour explorer de nouvelles technologies.</p>
+                            <span style="display: inline-block; padding: 0.7rem 1.5rem; background: linear-gradient(135deg, #0984e3, #0984e3); color: #ffffff; border-radius: 6px; font-size: 0.9rem; font-weight: 500; margin-top: 0.5rem;">Voir le projet</span>
+                        </div>
+                    </a>
+                </article>
+            </div>
         </section>
     </main>
+
     <footer>
-    <p>© 2025 LH DIGITAL. All rights reserved.</p>
+        <p>&copy; 2025 LH Digital. Tous droits réservés.</p>
     </footer>
 </body>
 </html>

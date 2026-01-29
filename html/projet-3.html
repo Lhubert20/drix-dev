@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projet: Projet Personnel - LH Digital">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../IMG/LOGO FAVICON.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Projet Personnel - LH Digital</title>
+    <style>
+        .project-detail {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .project-detail h2 {
+            font-size: 2.5rem;
+            color: var(--color-primary);
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .project-meta {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: var(--color-secondary);
+            font-size: 0.9rem;
+        }
+
+        .meta-value {
+            color: var(--color-text);
+            font-size: 1rem;
+        }
+
+        .project-description {
+            background: var(--color-light);
+            padding: 2rem;
+            border-radius: 12px;
+            border-left: 4px solid var(--color-secondary);
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .project-description p {
+            color: var(--color-text-light);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .project-technologies {
+            margin-top: 2rem;
+        }
+
+        .project-technologies h3 {
+            color: var(--color-primary);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .tech-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .tech-badge {
+            background: linear-gradient(135deg, var(--color-secondary), #0984e3);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-link {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: linear-gradient(135deg, var(--color-secondary), #0984e3);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            transition: var(--transition);
+            border: 2px solid var(--color-secondary);
+        }
+
+        .btn-link:hover {
+            background: transparent;
+            color: var(--color-secondary);
+        }
+
+        .btn-back {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: transparent;
+            color: var(--color-secondary);
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            transition: var(--transition);
+            border: 2px solid var(--color-secondary);
+            margin-bottom: 2rem;
+        }
+
+        .btn-back:hover {
+            background: var(--color-secondary);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LH DIGITAL</h1>
+        <nav class="nav-accueil">
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./projet.html">Projets</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="../IMG/LOGO FAVICON.svg" alt="Logo LH-Digital">
+    </header>
+
+    <main>
+        <div class="project-detail">
+            <a href="./projet.html" class="btn-back">← Retour aux projets</a>
+
+            <h2>Projet Personnel</h2>
+
+            <div class="project-meta">
+                <div class="meta-item">
+                    <span class="meta-label">Catégorie</span>
+                    <span class="meta-value">Apprentissage</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Année</span>
+                    <span class="meta-value">2024</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Statut</span>
+                    <span class="meta-value">En cours</span>
+                </div>
+            </div>
+
+            <div class="project-description">
+                <p>
+                    Un projet personnel d'apprentissage et d'expérimentation me permettant d'explorer de nouvelles technologies et de mettre en pratique les concepts récemment acquis. C'est un excellent terrain de jeu pour innover et tester des idées.
+                </p>
+                <p>
+                    Ce projet reflète ma passion continue pour l'apprentissage et mon engagement à rester à la pointe des dernières tendances technologiques du développement web.
+                </p>
+
+                <div class="project-technologies">
+                    <h3>Technologies utilisées</h3>
+                    <div class="tech-list">
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">Express</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">React</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="#" class="btn-link">Voir le projet</a>
+                <a href="#" class="btn-link">Code source</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 LH Digital. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
